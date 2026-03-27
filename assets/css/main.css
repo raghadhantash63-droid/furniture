@@ -356,106 +356,72 @@ background-image: url("../img/chair/Rectangle\ .webp");
 
 /* Footer */
 
-.footer-section{
-
-  padding: 60px 0 20px;
-
-  background: #fff;
-
+.footer-section {
+  padding: 60px 0;
+  background-color: #fff;
 }
 
-
-.footer-address{
-
-  color: #777;
-
-  line-height: 1.8;
-
-}
-
-
-.footer-title{
-
-  font-weight: 600;
-
+.footer-title {
   margin-bottom: 15px;
-
-}
-
-
-.footer-links{
-
-  list-style: none;
-
-  padding: 0;
-
-}
-
-
-.footer-links li{
-
-  margin-bottom: 10px;
-
-  cursor: pointer;
-
-}
-
-
-.footer-links li:hover{
-
-  color: #777;
-
-}
-
-
-.newsletter-box{
-
-  display: flex;
-
-  gap: 10px;
-
-}
-
-
-.newsletter-box input{
-
-  border: none;
-
-  border-bottom: 1px solid black;
-
-  outline: none;
-
-  flex: 1;
-
-}
-
-
-.newsletter-box button{
-
-  border: none;
-
-  background: none;
-
-  border-bottom: 1px solid black;
-
   font-weight: 600;
-
 }
 
-@media (max-width: 576px){
-  .newsletter-box{
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #b88e2f;
+}
+
+.footer-address {
+  color: #777;
+  line-height: 1.6;
+}
+
+.newsletter-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-box input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-box button {
+  padding: 8px 12px;
+  border: none;
+  background: #b88e2f;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  color: #777;
+  text-align: center;
+}
+@media (max-width: 768px) {
+
+  .newsletter-box {
     flex-direction: column;
   }
 
-  .newsletter-box button{
-    text-align: left;
+  .newsletter-box button {
+    width: 100%;
   }
-}
-
-.footer-copy{
-
-  margin-top: 20px;
-
-  color: #777;
 
 }
+
+
+
